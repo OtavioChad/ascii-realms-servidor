@@ -1,0 +1,10 @@
+# Render (plano gratuito): New > Blueprint > este repositorio. Ou New > Web Service com
+# Build Command vazio e Start Command "node relay-server.js".
+services:
+  - type: web
+    name: ascii-realms-relay
+    runtime: node
+    plan: free
+    buildCommand: "echo sem dependencias"
+    startCommand: node relay-server.js
+    healthCheckPath: /health

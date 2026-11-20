@@ -1,0 +1,13 @@
+{
+  "name": "ascii-realms-relay",
+  "version": "1.0.0",
+  "description": "Servidor de salas (relay WebSocket) do ASCII Realms",
+  "main": "relay-server.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node relay-server.js"
+  }
+}
